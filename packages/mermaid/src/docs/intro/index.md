@@ -227,3 +227,35 @@ _Mermaid was created by Knut Sveidqvist for easier documentation._
     filter: invert(1) hue-rotate(217deg)  contrast(0.72);
   }
 </style>
+
+graph TD
+    A[Skin Color Adaptation and UV Exposure] --> B[Equatorial Regions]
+    A --> C[Mid-Latitude Regions]
+    A --> D[Polar Regions]
+
+    B --> B1[High UV Levels]
+    B1 --> B2[High Melanin]
+    B2 --> B3[UV Protection]
+    B2 --> B4[Reduced Vitamin D Synthesis]
+    B --> B5[Example: Sub-Saharan Africans]
+
+    C --> C1[Moderate UV Levels]
+    C1 --> C2[Moderate Melanin]
+    C2 --> C3[Balanced UV Protection and Vitamin D Synthesis]
+    C --> C4[Example: Mediterranean and Middle Eastern Groups]
+
+    D --> D1[Low UV Levels]
+    D1 --> D2[Low Melanin]
+    D2 --> D3[Maximized UV Penetration]
+    D2 --> D4[Increased Vitamin D Production]
+    D --> D5[Example: Northern Europeans]
+
+    E[Biological Mechanisms] --> F[Melanin Production]
+    E --> G[Vitamin D Synthesis]
+
+    F --> F1[Darker Skin: Fast and Even]
+    F --> F2[Lighter Skin: Slow and Clumped]
+
+    G --> G1[UV-B Stimulates Vitamin D Production]
+    G --> G2[Excess Melanin Reduces UV-B Penetration]
+    
